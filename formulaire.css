@@ -1,0 +1,156 @@
+/* 
+form{
+    
+    
+    border: 2px solid rgb(207, 207, 207);
+    
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    
+    border-radius: 9px;
+   
+}
+.saisi{
+    margin: 12px;
+   
+    border-radius: 5px;
+    height: 30px;
+    width: 50%;
+
+    
+
+}
+.rad{
+    margin: 12px;
+    text-align: left;
+}
+label{
+    font-size:15px;
+    
+}
+.commande{
+    height: 30px;
+    width: 50%;
+    margin: 30px;
+    border-radius: 5px;
+    background-color:rgb(9, 131, 212) ;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+}
+.apercu{
+    text-decoration: none;
+    color: black;
+}
+button{
+    float: right;
+}
+hr{
+    margin: 10px 0;
+    height: 1px;
+    width: 100%;
+    
+
+}
+.commande:hover{
+    background-color: rgb(24, 24, 51);
+} */
+
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+header{
+    background-color: black;
+
+    height: 80px;
+}
+nav{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    color: rgb(146, 146, 146);
+    font-size: 1rem;
+}
+h1{
+    font-size: 2rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    margin: auto;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+main .tous{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    align-items: center;
+    height: 100%;
+}
+.input{
+    font-size: 17px;
+    padding: 14px 0px 14px 4px ;
+    border: none;
+    border: 1px solid  rgb(177, 177, 177);
+    margin-top: 25px;
+}
+.check{
+    display: flex;
+    justify-content: left;
+   
+
+    margin-top: 20px;
+}
+
+form .lien1{
+    
+    padding: 10px 0px 10px 4px ;
+    border: none;
+    border: 1px solid rgb(243, 29, 29);
+    margin-top: 55px;
+    width: 75%;
+    margin: auto;
+    background-color: rgb(243, 29, 29);
+    text-decoration: none;
+    margin-top: 35px;
+   color: white;
+   border-radius: 2px;
+   font-weight: bolder;
+}
+
+form .lien2{
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(243, 29, 29);
+    
+}
+.tous .s1{
+    border-bottom: 2px solid rgb(243, 29, 29);
+    padding:10px ;
+    color: rgb(243, 29, 29);
+
+}
+.tous .s2{
+    border-bottom: 2px solid rgb(197, 197, 197);
+    width: 60px;
+    text-align: right;
+    padding: 10px;
+}
+
